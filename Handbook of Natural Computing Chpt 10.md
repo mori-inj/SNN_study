@@ -77,7 +77,7 @@ microelctrode, LFP, EEG, fMRI -> 뇌 안에서 일어나는 급격한 활동 변
 
 &nbsp;
 
-#### 시냅스와 
+#### 시냅스와 spike
 실제로는 뉴런은 spike(pulse)형태의 신호로 정보를 전달
 전달 과정
 1. 뉴런의 핵(soma)에서 action potential spike 발생
