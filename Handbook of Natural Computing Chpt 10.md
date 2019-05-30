@@ -14,11 +14,14 @@
 4. snn학습 방법(아마도 왜 학습이 어려운지)
 5. 실제로 적용하고 구현해보기, 시뮬레이션 프레임워크 등
 
-
+&nbsp;  
+&nbsp;
 
 # 1. From Natural Computing to Artificial Neural Networks
 ## 1.1 Traditional Neural Networks
 AI 분야는 사람 뇌(뉴럴넷)에서 일어나는 가장 핵심적인 연산 과정이 뭔지 알아내려고 시도해 왔음  
+
+&nbsp;
 
 #### McCulloch and Pitts(1943)가 맨 처음 제안한 (사람의)뉴럴넷 기반 모델  
 * 그냥 바이너리 뉴런. actv. func.이 sigmoid도 아니고 그냥 step func.  
@@ -67,7 +70,9 @@ ann이 많은 분야에서 강력한 engineering도구로 쓰이고 있고 이�
 
 신경생물학에서 큰 발전: 뇌가 정보를 어떻게 처리하느냐? 논리와 추론 -> associative memory(*연상기억*), learning, adaptation, attention, emotion 
 
-__시간__ 이 인지 과정에 있어서 매우 중요(Abeles, 1991). microelctrode, LFP, EEG, fMRI 등의 기술을 통해 뇌 안에서 일어나는 급격한 활동 변화를 기록 가능. 자극을 인지하는 것과 뇌의 활동 사이 무슨 관련이 있는지 설명하는데 도움이 됨. 자세한 작동 원리는 모르겠지만, 인지 과정이 일시적으로 조합된 뉴런들의 activation에 기반한다는 점에는 의견일치를 봄 (*'급격한', '일시적으로' 등이 시간 관련된 표현인듯*)
+__시간__ 이 인지 과정에 있어서 매우 중요(Abeles, 1991)
+microelctrode, LFP, EEG, fMRI -> 뇌 안에서 일어나는 급격한 활동 변화를 기록(자극 인지와 뇌의 활동 사이 연관성 설명)  
+자세한 작동 원리는 모르겠지만, 인지 과정이 일시적으로 조합된 뉴런들의 activation에 기반한다는 점에는 의견일치를 봄 (*'급격한', '일시적으로' 등이 시간 관련된 표현인듯*)
 
 &nbsp;
 
