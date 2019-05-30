@@ -68,9 +68,10 @@ ann이 많은 분야에서 강력한 engineering도구로 쓰이고 있고 이�
 &nbsp;
 
 #### 신경생물학에서 큰 발전
-뇌가 정보를 어떻게 처리하느냐? 논리와 추론 -> associative memory(*연상기억*), learning, adaptation, attention, emotion 
+뇌가 정보를 어떻게 처리하느냐
+* 논리와 추론 -> associative memory(*연상기억*), learning, adaptation, attention, emotion 
 
-__시간__ 이 인지 과정에 있어서 매우 중요(Abeles, 1991)
+__시간__ 이 인지 과정에 있어서 매우 중요(Abeles, 1991)  
 microelctrode, LFP, EEG, fMRI -> 뇌 안에서 일어나는 급격한 활동 변화를 기록(자극 인지와 뇌의 활동 사이 연관성 설명)  
 자세한 작동 원리는 모르겠지만, 인지 과정이 일시적으로 조합된 뉴런들의 activation에 기반한다는 점에는 의견일치를 봄 (*'급격한', '일시적으로' 등이 시간 관련된 표현인듯*)
 
