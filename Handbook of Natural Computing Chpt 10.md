@@ -38,6 +38,43 @@ weighted sum은 <X, W> (X와 W의 내적)이라 생각할 수 있는데, 이걸 
 
 저 말에 영향을 받은 unsupervised 학습 규칙들을 Hebbian rules이라 부름(ex. Hopfield's(1982))  
 ann이 많은 분야에서 강력한 engineering도구로 쓰이고 있고 이론적인 분야에서도 강력함  
-이론적인 분야의 예시로 calculability, complecity, capacity, regularization theory가 있음 (~~레퍼런스만 달려있어서 어느 맥락에서 나온 얘긴지는 잘 모르겠음~~)  
+이론적인 분야의 예시로 calculability, complecity, capacity, regularization theory가 있음 (*레퍼런스만 달려있어서 어느 맥락에서 나온 얘긴지는 잘 모르겠음*)  
 그럼에도 불구하고 기존의 신경망은 본질적인 한계를 가짐(많은 양의 데이터를 다루는 것이나 환경 변화에 빠르게 적응하는 것)  
 생물학적인 신경에서 일어나는 과정에 비하면 ann은 매우 제한적임
+
+
+## 1.2 The Biological Inspiration, Revisited
+(*기존 방식은 시간을 감안 안 한 그냥 logic gate(combinational logic)에 가깝고 그럭저럭 잘 해오긴 했음. 근데 실제 뇌를 보니깐 인지 과정이 신호가 발생하는 타이밍에 영향을 받음. 그 뒤로 spike가 뭔지 소개하는 내용이 이어짐*)
+
+두뇌의 작동 원리가 무엇인가에 대한 생각에 변화가 있었음  
+처음에는 지능의 기반이 추론이라고 생각했고 논리가 이를 뒷받침 해준다고 생각  
+* McCulloch랑 Pitts(1943)도 뇌의 기본 단위인 뉴런이 기본적인 논리 함수를 계산할 수 있다는걸 보이려고 모델을 만듦  
+* Turing(1939, 1950) 이래로 사람들은 간단한 논리 게이트를 조합해서 만든 거대한 신경망이 복잡한 지능적인 행동을 할 수 있을 것이라고 생각함  
+
+(백프롭 같은 효율적인 학습 방법이 1980년대에나 등장하고 어떤 작업을 Boolean decomposition하는 것이 오랜 시간 쓰이지 않았음에도 불구하고) 역사적으로 이 생각이 결실이 있긴 했음  
+(*Boolean decomposition이 뭘 의미하는지 잘 모르겠음. 신경망이 논리 게이트의 조합이니깐 신경망에게 시키려는 어떤 task를 boolean 변수/식으로 표현하는 것 같음.*)
+
+&nbsp;
+
+(논리 & 추론에 집중하는 접근 방식과 별개로) 신경생물학에서 큰 발전이 있었는데,  
+뇌가 정보를 어떻게 처리하는지 이해하는데 있어서 필수적인 것으로 여겨져 오던 논리와 추론을 associative memory(*연상기억*), learning, adaptation, attention, emotion 이 대체함  
+__시간__ 이 인지 과정에 있어서 매우 중요한 요소로 부각(Abeles, 1991)  
+microelctrode, LFP, EEG, fMRI 등의 기술을 통해 뇌 안에서 일어나는 급격한 활동 변화를 기록 가능  
+자극을 인지하는 것과 뇌의 활동 사이 무슨 관련이 있는지 설명하는데 도움이 됨  
+자세한 작동 원리는 모르겠지만, 인지 과정이 일시적으로 조합된 뉴런들의 activation에 기반한다는 점에는 의견일치를 봄  
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
