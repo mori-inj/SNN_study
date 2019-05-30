@@ -85,7 +85,7 @@ microelctrode, LFP, EEG, fMRI -> 뇌 안에서 일어나는 급격한 활동 변
 3. 축색돌기의 끝에서 시냅스가 두 뉴런을 잇고 있고, spike가 도달하면 신경전달물질 방출
 4. 받는 쪽의 뉴런에게 전달되어서 후시냅스 뉴런(의 막 전위(membrane potential))의 상태를 변화시킴
 
-Postsynaptic Potential(PSP): spike가 막 전위에 끼치는 일시적인 영향
+Postsynaptic Potential(PSP): spike가 막 전위에 일시적으로 끼치는 영향
 * 후시냅스 뉴런의 활성화를 억제하면 IPSP(inhibitory)
 * 후시냅스 뉴런의 활성화를 촉진하면 EPSP(excitatory)
 
@@ -94,7 +94,9 @@ Postsynaptic Potential(PSP): spike가 막 전위에 끼치는 일시적인 영�
 밑에 예시 하나 나오는데 그것도 뭔지 모르겠음*)
 
 생물학적으로 생략된 부분들 -> 연산에 영형을 줄 수도 안 줄 수도  
-ex. 시냅스에서의 stochastic한 신경전달물질 방출: 지금까지의 활성화 내역에 따라 시냅스 사이 연결의 효율성과 안정성이 달라짐. 수상돌기의 서로 다른 부분들에 전해지는 자극은 단순히 더해지는게 아니라 곱해지거나 비선형적으로 합해질 수 있음
+ex. 시냅스에서의 stochastic한 신경전달물질 방출:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지금까지의 활성화 내역에 따라 시냅스 사이 연결의 효율성과 안정성이 달라짐  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수상돌기의 서로 다른 부분들에 전해지는 자극은 단순히 더해지는게 아니라 곱해지거나 비선형적으로 합해질 수 있음
 
 정보 인코딩 방식
 * 많은 경우 정보 전달 방식: 개별적인 활성화 전위(O), 종합적/누적해서 구한 척도(ex. 활성화 빈도) (X)  
