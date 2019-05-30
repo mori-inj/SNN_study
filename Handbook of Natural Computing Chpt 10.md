@@ -21,8 +21,6 @@
 ## 1.1 Traditional Neural Networks
 AI 분야는 사람 뇌(뉴럴넷)에서 일어나는 가장 핵심적인 연산 과정이 뭔지 알아내려고 시도해 왔음  
 
-&nbsp;
-
 #### McCulloch and Pitts(1943)가 맨 처음 제안한 (사람의)뉴럴넷 기반 모델  
 * 그냥 바이너리 뉴런. actv. func.이 sigmoid도 아니고 그냥 step func.  
 * 입력으로 들어오는 값의 weighted sum이 기준치보다 높냐 낮냐에 따라 출력을 결정함  
@@ -39,7 +37,7 @@ weighted sum은 <X, W> (X와 W의 내적)이라 생각할 수 있는데, 이걸 
 * Supervised learning: 경사하강법 포함(ex. 백프롭)  
 * Unsupervised learning: 많은 아이디어가 Hebb(1949)의 시냅스 가소성(synaptic plasticity)에 기반을 둠  
 
-#### Hebb이 시냅스 가소성과 관련해 한 말
+##### Hebb이 시냅스 가소성과 관련해 한 말
 > 뉴런A가 뉴런B를 흥분시키기에 충분히 가깝거나 지속적/영구적인 기여를 한다면, A가 B에게 더 효율적으로 영향을 끼칠 수 있도록 두 세포 중 어느 한쪽이나 양쪽 전부에게 변화가 일어난다.
 
 저 말에 영향을 받은 unsupervised 학습 규칙들을 Hebbian rules이라 부름(ex. Hopfield's(1982))
@@ -60,7 +58,8 @@ ann이 많은 분야에서 강력한 engineering도구로 쓰이고 있고 이�
 
 &nbsp;
 
-두뇌의 작동 원리: 처음엔 '논리에 기반한 추론->지능'이라고 생각  
+#### 두뇌의 작동 원리
+처음엔 '논리에 기반한 추론->지능'이라고 생각  
 * McCulloch랑 Pitts(1943)도 뇌의 기본 단위인 뉴런이 기본적인 논리 함수를 계산할 수 있다는걸 보이려고 모델을 만듦  
 * Turing(1939, 1950) 이래로 사람들 생각: 간단한 논리 게이트 -> 거대한 신경망 -> 복잡한 지능적인 행동 
 
@@ -68,7 +67,8 @@ ann이 많은 분야에서 강력한 engineering도구로 쓰이고 있고 이�
 
 &nbsp;
 
-신경생물학에서 큰 발전: 뇌가 정보를 어떻게 처리하느냐? 논리와 추론 -> associative memory(*연상기억*), learning, adaptation, attention, emotion 
+#### 신경생물학에서 큰 발전
+뇌가 정보를 어떻게 처리하느냐? 논리와 추론 -> associative memory(*연상기억*), learning, adaptation, attention, emotion 
 
 __시간__ 이 인지 과정에 있어서 매우 중요(Abeles, 1991)
 microelctrode, LFP, EEG, fMRI -> 뇌 안에서 일어나는 급격한 활동 변화를 기록(자극 인지와 뇌의 활동 사이 연관성 설명)  
