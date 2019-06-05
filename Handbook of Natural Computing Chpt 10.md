@@ -103,9 +103,10 @@ ex. 시냅스에서의 stochastic한 신경전달물질 방출:
 * 활성화 전위의 모양(개형)보다 개수와 타이밍이 더 중요  
 * spike의 정확한 타이밍이 정보를 인코딩하는 방식이라는게 여러 예시들에서 확인
 
+&nbsp;
 
-
-
+## 1.3 Time as Basis of Information Coding
+* spike vs rate -> rate ㄴㄴ
 
 
 
